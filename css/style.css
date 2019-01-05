@@ -146,17 +146,17 @@ img {
     transition: all 0.2s ease-out;
 }
 
-.header_component .menu_checkbox:checked~.hamburger_menu .hamburger_menu_span {
+.header_component .menu_checkbox:checked ~ .hamburger_menu .hamburger_menu_span {
     opacity: 1;
     transform: rotate(-45deg);
 }
 
-.header_component .menu_checkbox:checked~.hamburger_menu .hamburger_menu_span:nth-last-child(2) {
+.header_component .menu_checkbox:checked ~ .hamburger_menu .hamburger_menu_span:nth-last-child(2) {
     opacity: 0;
     transform: rotate(0deg);
 }
 
-.header_component .menu_checkbox:checked~.hamburger_menu .hamburger_menu_span:nth-last-child(3) {
+.header_component .menu_checkbox:checked ~ .hamburger_menu .hamburger_menu_span:nth-last-child(3) {
     transform: rotate(45deg);
 }
 
