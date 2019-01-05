@@ -250,18 +250,12 @@ img {
 
 .icons-link span {
     display: block;
+    text-align: center;
 }
 
-.icons-link svg {
-    max-height: 60px;
-}
-
-.git {
-    color: #000000;
-}
-
-.linkedIn {
-    color: rgba(25, 181, 254, 1);
+.social_icon {
+    height: 70px;
+    width: auto;
 }
 
 
